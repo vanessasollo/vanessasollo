@@ -5,28 +5,38 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b0b0b">
 
-    <title>Vanessa Sollo</title>
+    <title>Vanessa Sollo | Cantora Pop &bull; Fusion</title>
 
     <meta name="description"
-        content="Vanessa Sollo | Cantora Pop • Fusion | Agenda de Shows">
+        content="Vanessa Sollo | Cantora Pop • Fusion. Elegância, emoção e performance marcante para casamentos, eventos corporativos, bares e restaurantes em Florianópolis.">
+
+    <!-- Ícone -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230b0b0b'/><text x='50' y='72' font-size='60' font-family='Georgia,serif' fill='%23c49b4b' text-anchor='middle'>VS</text></svg>">
+
+    <!-- Open Graph / redes sociais -->
+    <!-- Se um domínio próprio for configurado, atualizar og:url e og:image para o novo endereço -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vanessasollo.github.io/vanessasollo/">
+    <meta property="og:title" content="Vanessa Sollo | Cantora Pop • Fusion">
+    <meta property="og:description"
+        content="Elegância, emoção e uma performance marcante para transformar seu evento em uma experiência inesquecível.">
+    <meta property="og:image" content="https://vanessasollo.github.io/vanessasollo/assets/img/hero.png">
+    <meta name="twitter:card" content="summary_large_image">
 
     <!-- Google Fonts -->
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 
     <!-- Font Awesome -->
-
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
     <!-- CSS -->
-
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -39,36 +49,27 @@
 
     <header class="header">
 
-        <div class="logo">
+        <a href="#" class="logo">Vanessa Sollo</a>
 
-            Vanessa Sollo
+        <nav aria-label="Redes sociais">
 
-        </div>
-
-        <nav>
-
-            <a href="https://instagram.com/vanessa.sollo" target="_blank">
-
-                <i class="fa-brands fa-instagram"></i>
-
+            <a href="https://instagram.com/vanessa.sollo" target="_blank" rel="noopener noreferrer"
+                aria-label="Instagram de Vanessa Sollo">
+                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
             </a>
 
-            <a href="https://www.tiktok.com/@vanessa.sollo" target="_blank">
-
-                <i class="fa-brands fa-tiktok"></i>
-
+            <a href="https://www.tiktok.com/@vanessa.sollo" target="_blank" rel="noopener noreferrer"
+                aria-label="TikTok de Vanessa Sollo">
+                <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
             </a>
 
-            <a href="https://wa.me/5548988238021" target="_blank">
-
-                <i class="fa-brands fa-whatsapp"></i>
-
+            <a href="https://wa.me/5548988238021" target="_blank" rel="noopener noreferrer"
+                aria-label="WhatsApp de Vanessa Sollo">
+                <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
             </a>
 
-            <a href="mailto:vanessadcantora@gmail.com">
-
-                <i class="fa-regular fa-envelope"></i>
-
+            <a href="mailto:vanessadcantora@gmail.com" aria-label="Enviar e-mail para Vanessa Sollo">
+                <i class="fa-regular fa-envelope" aria-hidden="true"></i>
             </a>
 
         </nav>
@@ -80,68 +81,70 @@
     =========================== -->
 
     <section class="hero">
-<img src="assets/img/hero.png" class="hero-image">
+
+        <img src="assets/img/hero.png" class="hero-image" alt="Vanessa Sollo, cantora">
 
         <div class="hero-overlay"></div>
 
         <div class="hero-content">
 
+            <h1>Vanessa <br> Sollo</h1>
 
-            <h1>
+            <p>
+                Elegância, emoção e uma performance marcante
+                para transformar seu evento em uma experiência
+                inesquecível.
+            </p>
 
-Vanessa <br>
-Sollo
+            <div class="categoria">
+                Casamentos • Recepções <br>
+                Eventos Corporativos • Bares & Restaurantes
+            </div>
 
-</h1>
+            <div class="hero-buttons">
 
-<p>
+                <a href="#agenda" class="btn-principal">Agenda</a>
 
-Elegância, emoção e uma performance marcante
-para transformar seu evento em uma experiência
-inesquecível.
+                <button id="abrirVideo" type="button" class="btn-secundario">
+                    <i class="fa-solid fa-circle-play" aria-hidden="true"></i>
+                    Vídeo de Apresentação
+                </button>
 
-</p>
+            </div>
 
-<div class="categoria">
+            <a href="https://wa.me/5548988238021" target="_blank" rel="noopener noreferrer" class="hero-contact">
+                💬 Contrate pelo WhatsApp
+                <span>Orçamentos • Casamentos • Eventos Corporativos • Shows Temáticos</span>
+            </a>
 
-Casamentos • Recepções <br>
+        </div>
 
-Eventos Corporativos • Bares & Restaurantes
+    </section>
 
-</div>
+    <!-- ==========================
+         VÍDEO (TEASER)
+    =========================== -->
 
-<div class="hero-buttons">
+    <section id="video" class="section video-section">
 
-    <a href="#agenda" class="btn-principal">
+        <span class="subtitulo">ASSISTA</span>
 
-        Agenda
+        <h2>Vídeo de Apresentação</h2>
 
-    </a>
+        <div class="video-frame" data-yt="w0lMLn69Ebg">
 
-    <button id="abrirvideo" class="btn-secundario">
+            <button class="video-facade" type="button" aria-label="Reproduzir o vídeo de apresentação">
 
-        <i class="fa-solid fa-circle-play"></i>
+                <img src="https://i.ytimg.com/vi/w0lMLn69Ebg/sddefault.jpg"
+                    onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/w0lMLn69Ebg/hqdefault.jpg';"
+                    alt="" loading="lazy">
 
-        Vídeo de Apresentação
+                <span class="video-play" aria-hidden="true">
+                    <i class="fa-solid fa-play"></i>
+                </span>
 
-    </button>
+            </button>
 
-</div>
-
-<a
-href="https://wa.me/5548988238021"
-target="_blank"
-class="hero-contact">
-
-💬 Contrate pelo WhatsApp
-
-<span>
-
-Orçamentos • Casamentos • Eventos Corporativos • Shows Temáticos
-
-</span>
-
-</a>
         </div>
 
     </section>
@@ -155,41 +158,23 @@ Orçamentos • Casamentos • Eventos Corporativos • Shows Temáticos
         <div class="section-header">
 
             <div>
-
-                <span class="subtitulo">
-
-                    AGENDA
-
-                </span>
-
-                <h2>
-
-                    Próximos Shows
-
-                </h2>
-
+                <span class="subtitulo">AGENDA</span>
+                <h2>Próximos Shows</h2>
             </div>
 
             <div class="carousel-buttons">
-
-                <button id="prev">
-
-                    <i class="fa-solid fa-chevron-left"></i>
-
+                <button id="prev" type="button" aria-label="Ver shows anteriores">
+                    <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
                 </button>
-
-                <button id="next">
-
-                    <i class="fa-solid fa-chevron-right"></i>
-
+                <button id="next" type="button" aria-label="Ver próximos shows">
+                    <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
                 </button>
-
             </div>
 
         </div>
 
         <div id="agenda-container" class="agenda-container">
-
+            <!-- Cards carregados via script.js -->
         </div>
 
     </section>
@@ -200,59 +185,41 @@ Orçamentos • Casamentos • Eventos Corporativos • Shows Temáticos
 
     <section id="release" class="section">
 
-        <span class="subtitulo">
+        <span class="subtitulo">SOBRE</span>
 
-            SOBRE
-
-        </span>
-
-        <h2>
-
-            Vanessa Sollo
-
-        </h2>
+        <h2>Vanessa Sollo</h2>
 
         <div class="release">
 
             <p>
-
                 Vanessa Sollo é o projeto da cantora florianopolitana Vanessa da Silva.
-
                 Com um repertório que transita pelo pop nacional e internacional, apresenta um espetáculo elegante,
                 vibrante e emocionante ao lado de uma excelente banda.
-
             </p>
 
             <p>
-
                 Cantora desde os sete anos de idade, construiu sua trajetória em corais,
                 apresentações em voz e violão e bandas, consolidando hoje um projeto voltado
                 para eventos, bares, casas de espetáculo e festivais.
-
             </p>
 
         </div>
 
     </section>
-        <!-- ==========================
+
+    <!-- ==========================
          MODAL DO VÍDEO
     =========================== -->
 
-    <div id="videoModal" class="modal">
+    <div id="videoModal" class="modal" role="dialog" aria-modal="true" aria-label="Vídeo de apresentação de Vanessa Sollo">
 
         <div class="modal-content">
 
-            <button class="fechar" id="fecharvideo">
-
-                <i class="fa-solid fa-xmark"></i>
-
+            <button class="fechar" id="fecharVideo" type="button" aria-label="Fechar vídeo">
+                <i class="fa-solid fa-xmark" aria-hidden="true"></i>
             </button>
 
-            <video id="videoPlayer" controls preload="metadata">
-
-                <source src="assets/apresentacao.mp4" type="video/mp4">
-
-            </video>
+            <div class="modal-body" id="videoModalBody"></div>
 
         </div>
 
@@ -264,56 +231,40 @@ Orçamentos • Casamentos • Eventos Corporativos • Shows Temáticos
 
     <footer>
 
-        <div class="footer-logo">
+        <div class="footer-logo">Vanessa Sollo</div>
 
-            Vanessa Sollo
+        <p>Cantora • Pop • Fusion</p>
+        <p>Florianópolis • Santa Catarina • Brasil</p>
 
-        </div>
+        <nav class="footer-social" aria-label="Redes sociais">
 
-        <p>
-
-            Cantora • Pop • Fusion
-        
-        </p>
-        <p>
-        Florianópolis • Santa Catarina • Brasil
-</p>
-        <div class="footer-social">
-
-            <a href="https://instagram.com/vanessa.sollo" target="_blank">
-
-                <i class="fa-brands fa-instagram"></i>
-
+            <a href="https://instagram.com/vanessa.sollo" target="_blank" rel="noopener noreferrer"
+                aria-label="Instagram de Vanessa Sollo">
+                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
             </a>
 
-            <a href="https://www.tiktok.com/@vanessa.sollo" target="_blank">
-
-                <i class="fa-brands fa-tiktok"></i>
-
+            <a href="https://www.tiktok.com/@vanessa.sollo" target="_blank" rel="noopener noreferrer"
+                aria-label="TikTok de Vanessa Sollo">
+                <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
             </a>
 
-            <a href="https://wa.me/5548988238021" target="_blank">
-
-                <i class="fa-brands fa-whatsapp"></i>
-
+            <a href="https://wa.me/5548988238021" target="_blank" rel="noopener noreferrer"
+                aria-label="WhatsApp de Vanessa Sollo">
+                <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
             </a>
 
-            <a href="mailto:vanessadcantora@gmail.com?subject=Solicitação de orçamento - Vanessa Sollo">
-    <i class="fa-regular fa-envelope"></i>
-</a>
+            <a href="mailto:vanessadcantora@gmail.com?subject=Solicitação de orçamento - Vanessa Sollo"
+                aria-label="Enviar e-mail para Vanessa Sollo">
+                <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+            </a>
 
-        </div>
+        </nav>
 
-        <p class="copyright">
-
-            © 2026 Vanessa Sollo • Todos os direitos reservados.
-
-        </p>
+        <p class="copyright">© 2026 Vanessa Sollo • Todos os direitos reservados.</p>
 
     </footer>
 
     <!-- JavaScript -->
-
     <script src="script.js"></script>
 
 </body>
