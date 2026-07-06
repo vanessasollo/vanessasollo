@@ -25,5 +25,20 @@
         "banner":"show01.png",
 
         "ingresso":""
+    },
+    {
+       "data":"29 SET",
+
+        "local":"Boteco Zé Mané",
+
+        "cidade":"Florianópolis - SC",
+
+        "hora":"20:00",
+   
+        "banner":"show03.png",
+
+        "ingresso":""
     }
+    
+ 
 ]
