@@ -1,19 +1,5 @@
 [
     {
-       "data":"01 AGO",
-
-        "local":"Delfino 146",
-
-        "cidade":"Florianópolis - SC",
-
-        "hora":"12:00",
-
-        "banner":"show02.png",
-
-        "ingresso":"https://www.pensanoevento.com.br/sitev2/eventos/104981/vanessa-solo" 
-    },
- 
-    {
        "data":"04 SET",
 
         "local":"Secreto Floripa",
@@ -24,7 +10,7 @@
    
         "banner":"show01.png",
 
-        "ingresso":""
+        "ingresso":"https://www.pensanoevento.com.br/sitev2/eventos/106991/back-to-the-80s-por-vanessa-sollo"
     },
     {
        "data":"29 SET",
@@ -35,7 +21,7 @@
 
         "hora":"20:00",
    
-        "banner":"show03.png",
+        "banner":"show02.png",
 
         "ingresso":""
     }
