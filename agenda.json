@@ -1,16 +1,16 @@
 [
-    {
-       "data":"04 SET",
+     {
+       "data":"10 OUT",
 
-        "local":"Secreto Floripa",
+        "local":"Boteco Cascaes - Mercado Público (especial Axé)",
 
         "cidade":"Florianópolis - SC",
 
-        "hora":"21:00",
+        "hora":"12:00",
    
         "banner":"show01.png",
 
-        "ingresso":"https://www.pensanoevento.com.br/sitev2/eventos/106991/back-to-the-80s-por-vanessa-sollo"
+        "ingresso":""
     },
     {
        "data":"24 OUT",
