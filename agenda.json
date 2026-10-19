@@ -1,17 +1,4 @@
 [
-     {
-       "data":"10 OUT",
-
-        "local":"Boteco Cascaes - Mercado Público (especial Axé)",
-
-        "cidade":"Florianópolis - SC",
-
-        "hora":"12:00",
-   
-        "banner":"show01.jpeg",
-
-        "ingresso":""
-    },
     {
        "data":"24 OUT",
 
@@ -39,16 +26,14 @@
         "ingresso":""
     },
     {
-         "data":"11 NOV",
+         "data":"2 NOV",
 
-        "local":"Delfino146",
+        "local":"Boteco Cascaes - Mercado Público",
 
         "cidade":"Florianópolis - SC",
 
-        "hora":"21:00",
+        "hora":"12:00",
    
-        "banner":"show04.png",
-
-        "ingresso":"https://www.pensanoevento.com.br/sitev2/eventos/107799/vanessa-solo"
+        "banner":"show01.png"
     }  
 ]
